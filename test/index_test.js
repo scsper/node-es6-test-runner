@@ -1,7 +1,7 @@
 import './setup';
-import say from '../src/sample';
+import say from '../src/index';
 
-describe('./src/sample', function() {
+describe('./src/index', function() {
     it('says hello', function() {
         expect(say('scott')).to.equal('hello scott');
     });
